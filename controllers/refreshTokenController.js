@@ -5,7 +5,10 @@ const usersDB = {
   },
 }
 const jwt = require('jsonwebtoken')
+<<<<<<< HEAD
 require('dotenv').config()
+=======
+>>>>>>> 8659ec6ecab555b532efad1892746b1b789fbb07
 
 const handleRefreshToken = (req, res) => {
   const cookies = req.cookies
