@@ -7,6 +7,10 @@ const usersDB = {
 const bcrypt = require('bcrypt')
 
 const jwt = require('jsonwebtoken')
+<<<<<<< HEAD
+require('dotenv').config()
+=======
+>>>>>>> 8659ec6ecab555b532efad1892746b1b789fbb07
 const fsPromises = require('fs').promises
 const path = require('path')
 
